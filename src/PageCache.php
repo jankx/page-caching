@@ -5,7 +5,8 @@ class PageCache
 {
     protected static $instance;
 
-    public static function get_instance() {
+    public static function get_instance()
+    {
         if (is_null(static::$instance)) {
             static::$instance = new static();
         }
@@ -13,6 +14,7 @@ class PageCache
     }
 
 
-    private function __construct() {
+    private function __construct()
+    {
     }
 }
