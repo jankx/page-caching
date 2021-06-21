@@ -1,0 +1,19 @@
+{
+  "name": "jankx/page-caching",
+  "description": "Manage and load dynamic data for page cached via Javascript",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Puleeno Nguyen",
+      "email": "puleeno@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jankx\\PageCaching\\": "src/"
+    }
+  }
+}
