@@ -13,7 +13,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Jankx\\PageCaching\\": "src/"
+      "Jankx\\PageCache\\": "src/"
     }
   }
 }
