@@ -10,10 +10,15 @@
       "email": "puleeno@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "jankx/core": "*"
+  },
   "autoload": {
     "psr-4": {
       "Jankx\\PageCache\\": "src/"
-    }
+    },
+    "files": [
+      "./bootstrap.php"
+    ]
   }
 }
