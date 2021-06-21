@@ -1,5 +1,5 @@
 {
-  "name": "jankx/page-caching",
+  "name": "jankx/page-cache",
   "description": "Manage and load dynamic data for page cached via Javascript",
   "type": "library",
   "license": "MIT",
